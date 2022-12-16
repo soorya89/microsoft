@@ -66,6 +66,9 @@ font-size: 12px;
 .center {
     padding: 200px 0;
 }
+.info-surface{
+    width: 400px;
+}
 
 .header {
     height: 54px;
@@ -80,6 +83,8 @@ font-size: 12px;
     height: 550px;
     width: 100%;
     text-align: justify;
+    background-size: cover;
+    background-position: center;
 }
 
 .dot {
@@ -130,6 +135,8 @@ font-size: 12px;
     height: 550px;
     background-size: 100%;
     margin-top: 50px;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -162,6 +169,7 @@ font-size: 12px;
     background-color: white;
     margin-left: 40px;
     padding: 40px;
+    width:33%;
 }
 
 .slider-control {
@@ -237,14 +245,14 @@ font-size: 12px;
     background-color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .button-red {
     color: white;
     background-color: #950c17;
     text-decoration: none;
-    padding: 6px;
+    padding: 6px 10px;
     top: 10px;
     position: absolute;
     display: inline-block;
